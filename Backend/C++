@@ -34,7 +34,7 @@ paragraph.clear();
 paragraph.seekg(0,ios::beg);
 
    while(paragraph.get(para_char)&&userinput.get(user_char)) 
-   {    if(user_char=='/n')
+   {    if(user_char=='\n')
 	{	index++;line++;continue;}
        
         if(user_char!=para_char)
