@@ -11,7 +11,7 @@ int main() {
 
     
     char para_char,user_char;
-	float accuracy;
+	float accuracy;                                      //variable accuracy
 	int line=1,index=1,errors=0,count=0;
     ifstream paragraph("para.txt");
 	ifstream userinput("input.txt");
